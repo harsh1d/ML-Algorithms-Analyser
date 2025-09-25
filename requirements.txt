@@ -1,0 +1,27 @@
+# Machine Learning Analysis Pipeline Dependencies
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine learning libraries
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+
+# Data processing and file handling
+openpyxl>=3.0.9  # For Excel file support
+xlrd>=2.0.1      # For older Excel formats
+
+# Optional: Enhanced functionality
+# jupyter>=1.0.0         # For notebook support
+# plotly>=5.0.0          # For interactive plots
+# shap>=0.41.0           # For model explainability
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# black>=22.0.0          # Code formatting
+# flake8>=4.0.0          # Linting
+Flask==2.3.3
+pandas==2.0.3
+scikit-learn==1.3.0
